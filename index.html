@@ -3,21 +3,60 @@
 
   <head>
     <meta charset="utf-8">
-    <title>유학준비</title>
+    <title>Jihye</title>
   </head>
 
-<h1> <a href="index.html"> 유학 </a> </h1>
+<!-- Cascading Styile Sheets-->
+<style media="screen">
+
+  h1 {font-size: 50px;
+     text-align: center;
+     display: block;
+     border-bottom: 1px solid gray;
+     margin: 0;
+     padding: 10px;}
+
+  #grid1 ol {border-right: 1px solid gray;
+      width: 100px;
+      margin: 0;
+    padding-top: 15px;
+      color: orange;}
+
+  h2 {margin-top: 10px}
+
+ #grid1 {display: grid;
+        grid-template-columns: 150px 1fr;
+        margin-bottom: 10px;}
+
+  body {margin:0;}
+
+    a { color: orange;
+       text-decoration: none;}
+
+
+</style>
+
+
+<h1> <a href="index.html"> Jihye </a> </h1>
 
   <body>
-    <ol>
-      <li> <a href="1.html"> English </a></li>
-      <li> <a href="2.html"> My History </a></li>
-      <li> <a href="3.html"> Prerequisite </a></li>
-    </ol>
 
-    <h2>유학 </h2>
-    <p> 2022년 또는 2023년에 유학을 가려면 무엇을 해야될까 <br>
-    </p>
+<div id="grid1">
+      <ol>
+        <li> <a href="1.html"> English </a></li>
+      <!--  <li> <a href="2.html" class="saw active"> My History </a></li> -->
+        <li> <a href="2.html"> My History </a></li>
+        <li> <a href="3.html"> Prerequisite </a></li>
+      </ol>
+
+    <div>
+         <h2>유학 </h2>
+         <p> 2022년 또는 2023년에 유학을 가려면 무엇을 해야될까 <br>
+         </p>
+    </div>
+
+</div>
+
     <img src="spain.jpg" width="100%" alt="spain" align="middle" >
 
   </body>
